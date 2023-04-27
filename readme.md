@@ -1,0 +1,10 @@
+## file map
+Image -> /repo/linux/arch/arm64/boot/Image
+bl1.bin -> /repo/trusted-firmware-a/build/qemu/release/bl1.bin
+bl2.bin -> /repo/trusted-firmware-a/build/qemu/release/bl2.bin
+bl31.bin -> /repo/trusted-firmware-a/build/qemu/release/bl31.bin
+bl32.bin -> /repo/optee_os/out/arm/core/tee-header_v2.bin
+bl32_extra1.bin -> /repo/optee_os/out/arm/core/tee-pager_v2.bin
+bl32_extra2.bin -> /repo/optee_os/out/arm/core/tee-pageable_v2.bin
+bl33.bin -> /repo/edk2/Build/ArmVirtQemuKernel-AARCH64/RELEASE_GCC5/FV/QEMU_EFI.fd
+rootfs.cpio.gz -> /repo/out-br/images/rootfs.cpio.gz
